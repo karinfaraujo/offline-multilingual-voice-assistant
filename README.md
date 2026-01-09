@@ -14,6 +14,12 @@ This project demonstrates a complete **end-to-end offline voice AI pipeline**, f
 
 ---
 
+## 🎬 Demo
+
+![Offline Multilingual Voice Assistant Demo](assets/demo.gif)
+
+---
+
 ## ✨ Features
 
 - 🎤 **Speech-to-Text (Offline)** using Faster-Whisper  
@@ -53,44 +59,69 @@ This project demonstrates a complete **end-to-end offline voice AI pipeline**, f
 
 ---
 
+## 📁 Project Structure
+
+offline-multilingual-voice-assistant/  
+├── app/  
+│   ├── main.py  
+│   ├── audio_recorder.py  
+│   ├── speech_to_text.py  
+│   ├── llm.py  
+│   └── text_to_speech.py  
+│  
+├── assets/  
+│   └── demo.gif
+│  
+├── requirements.txt  
+├── .gitignore  
+└── README.md  
+
+---
+
 ## ▶️ Getting Started
 
 ### 1️⃣ Clone the repository
 
-git clone https://github.com/karinfaraujo/offline-multilingual-voice-assistant.git  
-cd offline-multilingual-voice-assistant  
+~~~bash
+git clone https://github.com/karifaraujo/offline-multilingual-voice-assistant.git
+cd offline-multilingual-voice-assistant
+~~~
 
 ---
 
 ### 2️⃣ Create and activate a virtual environment
 
-python -m venv venv  
-
-Windows (Git Bash):  
-source venv/Scripts/activate  
+~~~bash
+python -m venv venv
+source venv/Scripts/activate   # Windows (Git Bash)
+~~~
 
 ---
 
 ### 3️⃣ Install dependencies
 
-pip install -r requirements.txt  
+~~~bash
+pip install -r requirements.txt
+~~~
 
 ---
 
 ### 4️⃣ Install Ollama and a local model
 
 Download Ollama from:  
-https://ollama.com  
+https://ollama.com
 
-Pull a lightweight, CPU-friendly model:
-
-ollama pull llama3.2:1b  
+~~~bash
+ollama pull llama3.2:1b
+~~~
 
 ---
 
 ### 5️⃣ Run the assistant
 
-python app/main.py  
+~~~bash
+python app/main.py
+~~~
 
 Speak into your microphone and wait for the spoken response.
 
