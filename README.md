@@ -16,7 +16,7 @@ This project demonstrates a complete **end-to-end offline voice AI pipeline**, f
 
 ## 🎬 Demo
 
-![Offline Multilingual Voice Assistant Demo (assets/demo.gif)
+![Offline Multilingual Voice Assistant Demo(assets/demo.gif)
 
 ---
 
