@@ -44,6 +44,8 @@ The assistant records user speech, transcribes it, generates a response using a 
       ↓
 🗣️ Spoken Response
 
+---
+
 ## 🧰 Tech Stack
 | Layer            | Technology                |
 | ---------------- | ------------------------- |
@@ -52,6 +54,8 @@ The assistant records user speech, transcribes it, generates a response using a 
 | Language Model   | Ollama (LLaMA 3.x)        |
 | Text-to-Speech   | Coqui TTS                 |
 | Audio Processing | SoundDevice, NumPy, SciPy |
+
+---
 
 ## ▶️ Getting Started
 
@@ -80,6 +84,8 @@ python app/main.py
 
 Speak into your microphone and wait for the spoken response.
 
+---
+
 ## 🔐 Why Offline?
 
 - Most voice assistants rely on cloud APIs, which introduce:
@@ -94,6 +100,8 @@ Speak into your microphone and wait for the spoken response.
 
 This project explores a local-first AI approach, making it ideal for environments where privacy, control, and offline availability are essential.
 
+---
+
 ## ♿ Accessibility & Use Cases
 
 - Voice-based interfaces for visually impaired users
@@ -106,6 +114,8 @@ This project explores a local-first AI approach, making it ideal for environment
 
 - Educational demonstrations of AI pipelines
 
+---
+
 ## 🔮 Future Improvements
 
 -Streaming responses to reduce perceived latency
@@ -117,6 +127,8 @@ This project explores a local-first AI approach, making it ideal for environment
 -GUI or web-based interface
 
 -Conversation memory and context
+
+---
 
 ## 👩‍💻 Author
 
