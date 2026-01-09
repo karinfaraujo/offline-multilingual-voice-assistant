@@ -83,7 +83,7 @@ offline-multilingual-voice-assistant/
 ### 1️⃣ Clone the repository
 
 ~~~bash
-git clone https://github.com/karifaraujo/offline-multilingual-voice-assistant.git
+git clone https://github.com/karinfaraujo/offline-multilingual-voice-assistant.git
 cd offline-multilingual-voice-assistant
 ~~~
 
