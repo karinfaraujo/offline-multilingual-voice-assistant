@@ -57,7 +57,7 @@ This project demonstrates a complete **end-to-end offline voice AI pipeline**, f
 
 ### 1️⃣ Clone the repository
 
-git clone https://github.com/your-username/offline-multilingual-voice-assistant.git  
+git clone https://github.com/karinfaraujo/offline-multilingual-voice-assistant.git  
 cd offline-multilingual-voice-assistant  
 
 ---
